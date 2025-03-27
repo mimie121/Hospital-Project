@@ -16,7 +16,7 @@ const Doctors = () => {
         doc.speciality.toLowerCase() === speciality.toLowerCase()
       );
       setFilterDoc(filtered);
-      
+      console.log(`Filtering for: ${speciality}`, filtered); // Debugging
     } else {
       setFilterDoc(doctors);
     }

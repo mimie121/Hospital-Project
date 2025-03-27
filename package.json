@@ -1,20 +1,22 @@
 {
+  "homepage": "https://mimie121.github.io/Hospital-Project",
   "name": "hospital-project",
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "homepage": "https://mimie121.github.io/Doctors-Appointment-Site",
   "dependencies": {
     "date-fns": "^4.1.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^7.4.0"
   },
-"scripts": {
-  "dev": "vite --port 3000",
-  "build": "vite build",
-  "start": "vite preview --port 3000"
-},
+  "scripts": {
+    "dev": "vite --port 3000",
+    "build": "vite build",
+     "predeploy": "npm run build",
+     "deploy": "gh-pages -d dist",
+     "start": "vite preview --port 3000"
+  },
   "devDependencies": {
     "@types/react": "^18.3.11",
     "@types/react-dom": "^18.3.1",
