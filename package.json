@@ -1,0 +1,44 @@
+{
+  "name": "hospital-project",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "homepage": "https://mimie121.github.io/Doctors-Appointment-Site",
+  "dependencies": {
+    "date-fns": "^4.1.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.4.0"
+  },
+"scripts": {
+  "dev": "vite --port 3000",
+  "build": "vite build",
+  "start": "vite preview --port 3000"
+},
+  "devDependencies": {
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "eslint-plugin-react": "^7.37.1",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.13",
+    "gh-pages": "^3.2.3",
+    "globals": "^15.11.0",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14",
+    "vite": "^5.4.15"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
